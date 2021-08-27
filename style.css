@@ -82,4 +82,38 @@ nav ul li:last-child div ul{
 }
 /* Presentera produkter */
 /* Sidomeny */
+.sidebar__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    width: 20%;
+}
+.sidebar__list li{
+    padding: .2rem 0;
+    list-style: none;
+}
+
+.sidebar__list li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8125rem;
+    color: #111;
+    text-decoration: none;
+    letter-spacing: .05rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sidebar__list li a:hover{
+    text-decoration: underline;
+}
+
+.sidebar__list--sub{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+
 /* Titel + Brödsmulor + Filtrering */
