@@ -6,6 +6,7 @@
 /* Header + Navbar */
 header {
     width: 100vw;
+    padding-bottom: 4rem;
 }
 header > div {
     height: 1.9375rem;
@@ -90,18 +91,20 @@ header nav ul li:last-child div ul{
 
 
 .title-over-filter {
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
+    font-size: 1.3rem;
 }
 
 
 .under-title {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 
 .grey-title {
     color: rgba(0,0,0,.54);
 }
+
 
 
 .black-filter {
@@ -126,13 +129,14 @@ header nav ul li:last-child div ul{
     width: 700px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 3rem;
 }
 
 .inside-wrapper {
     position: absolute;
     bottom: 0;
     left: 0;
-    top: -0.6rem;
+    top: 0.3rem;
     right: 5rem;
     height: 100%;
     margin-left: 0.6rem;
