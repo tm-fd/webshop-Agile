@@ -82,6 +82,122 @@ header nav ul li:last-child div ul{
 }
 /* Presentera produkter */
 /* Sidomeny */
+
+/* Titel + Brödsmulor + Filtrering */
+
+
+
+
+
+.title-over-filter {
+    padding-bottom: 1rem;
+}
+
+
+.under-title {
+    padding-bottom: 1rem;
+}
+
+
+.grey-title {
+    color: rgba(0,0,0,.54);
+}
+
+
+.black-filter {
+    color: #111;
+}
+
+
+
+
+.border {
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgba(17, 17, 17, 0.5);
+
+}
+
+.border:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.filter-wrapper {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inside-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: -0.6rem;
+    right: 5rem;
+    height: 100%;
+    margin-left: 0.6rem;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+i {
+    margin-top: 0.43rem;
+    margin-left: 6.4rem;
+}
+
+
+.first-box {
+    width: 130px;
+    height: 34px;
+}
+
+.second-box {
+    text-align: center;
+    width: 130px;
+    height: 34px;
+}
+
+.third-box {
+    text-align: center;
+    width: 130px;
+    height: 34px;
+}
+
+.fourth-box {
+    text-align: center;
+    width: 130px;
+    height: 34px;
+}
+
+.fifth-box {
+    text-align: center;
+    width: 130px;
+    height: 34px;  
+}
+
+.right-filter {
+    display: flex;
+    text-align: center;
+
+}
+
+
+.popular-filter {
+    width: 170px;
+    height: 34px;
+}
+
+.popular-p {
+    margin-left: 2.5rem;
+}
+
+
+.filter-wrapper-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .sidebar__list{
     display: flex;
     flex-direction: column;
@@ -117,3 +233,4 @@ header nav ul li:last-child div ul{
 }
 
 /* Titel + Brödsmulor + Filtrering */
+
