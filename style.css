@@ -3,6 +3,72 @@
 /* Sidomeny */
 /* Titel + Brödsmulor + Filtrering */
 
-.card-one .card-img {
-    background-image: url(https://junkyard.imgix.net/globalassets/productimages/7253738_990_f_m_yke_hannoki_hood_q1.jpg?auto=format&ar=4:5&fit=crop&w=400);
+
+/* Product Cards Start */
+.product-cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.heart-icon {
+    position: relative;
+    top: -320px;
+    right: -230px;
+}
+
+.product-image {
+    width: 269px;
+    height: 336px;
+    position: relative;
+}
+
+.product-colors {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+}
+
+.product-colors div {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+}
+
+.product-colors p {
+    top: 0px;
+}
+
+.color-black{
+    background-color: black;
+}
+
+.color-grey{
+    background-color: grey;
+}
+
+.color-military-green{
+    background-color: rgb(60, 90, 35);
+}
+
+.color-yellow{
+    background-color: rgb(206, 200, 33);
+}
+
+.product-info {
+    line-height: 0%;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+.product-price span {
+    text-decoration: line-through;
+}
+
+.product-price-sale {
+    color: red;
+}
+
+/* Product Cards Ends */
