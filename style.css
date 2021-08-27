@@ -27,25 +27,25 @@ header > div > ul > li {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 1rem 0 0;
 }
-nav {
+header nav {
     height: 69px;
     background: #111;
     width: 100%;
     padding: 0 1rem;
 }
-nav > ul {
+header nav > ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: inherit;
     width: 100%;
 }
-nav > ul li {
+header nav > ul li {
     margin-right: 1rem;
 }
 .menu-li {
 }
-nav .meny {
+header nav .meny {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,13 +54,13 @@ nav .meny {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
-nav .meny li {
+header nav .meny li {
     text-align: center;
 }
-    nav .meny li:nth-child(1){
+header nav .meny li:nth-child(1){
         border-bottom: .5px ivory solid;
     }
-    nav .meny li:last-child{
+    header nav .meny li:last-child{
         color: #d83b24
     }
 #searchbar {
@@ -68,12 +68,12 @@ nav .meny li {
     border: 1px solid ivory;
     border-width: 0 0 1px 0;
 }
-nav ul li:last-child {
+header nav ul li:last-child {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-nav ul li:last-child div ul{
+header nav ul li:last-child div ul{
     display: flex;
     align-items: center;
     justify-content: flex-start;
