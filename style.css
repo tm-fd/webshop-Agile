@@ -34,17 +34,18 @@ header nav {
     width: 100%;
     padding: 0 1rem;
 }
-header nav > ul {
+header > nav > ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: inherit;
     width: 100%;
 }
-header nav > ul li {
+header nav > ul > li {
     margin-right: 1rem;
 }
-.menu-li {
+.meny li {
+    margin-right: 1rem;
 }
 header nav .meny {
     display: flex;
@@ -70,16 +71,30 @@ header nav .meny li:nth-child(1){
     border-width: 0 0 1px 0;
 }
 header nav ul li:last-child {
+}
+.flex-box-1 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    
 }
-header nav ul li:last-child div ul{
+.search-container {
+}
+.icon-container {
+
+}
+.icons{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     color: ivory;
     list-style-type: none;
+}
+.icons > li {
+    margin-left: 1rem;
+}
+.fa {
+    margin: 0;
 }
 /* Presentera produkter */
 /* Sidomeny */
